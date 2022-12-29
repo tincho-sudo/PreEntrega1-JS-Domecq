@@ -175,7 +175,7 @@ function getMoreOptions(slot1, slot2) {
 //
 btnNext.addEventListener("click", () => {
 if (
-    state < mapQA.size - 1 &&
+    state < mapQA.size &&
     (chk1.checked || chk2.checked || chk3.checked)
   ) {
   if (chk1.checked && getOptions(1) == Array.from(mapQA)[state][1]) {
