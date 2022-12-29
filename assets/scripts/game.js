@@ -174,6 +174,10 @@ function getMoreOptions(slot1, slot2) {
 //  Button event listener, validates the answer and adds points
 //
 btnNext.addEventListener("click", () => {
+if (
+    state < mapQA.size - 1 &&
+    (chk1.checked || chk2.checked || chk3.checked)
+  ) {
   if (chk1.checked && getOptions(1) == Array.from(mapQA)[state][1]) {
     points += 10;
     document.getElementById("score").textContent = points;
@@ -191,10 +195,6 @@ btnNext.addEventListener("click", () => {
     wrongAnswer();
   }
 
-  if (
-    state < mapQA.size - 1 &&
-    (chk1.checked || chk2.checked || chk3.checked)
-  ) {
     resetButton();
     state++;
     getQuestions(state);
