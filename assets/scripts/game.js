@@ -21,7 +21,7 @@ function fillMap() {
   mapQA.set("How many FIFA World Championships has won France?", "2");
   mapQA.set(
     "Which is the name of the first nuclear powered submarine?",
-    "USN. Nautilus"
+    "USS. Nautilus"
   );
   mapQA.set("Where is Ciudad del Cabo located?", "South Africa");
   mapQA.set("Which is world's largest country?", "Russia");
