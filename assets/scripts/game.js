@@ -18,7 +18,7 @@ function fillMap() {
   mapQA.set("Where did Lionel Messi get married?", "Rosario");
   mapQA.set("Where is Bangladesh located?", "Asia");
   mapQA.set("Which year did Japan attack Pearl Harbor?", "1941");
-  mapQA.set("How many FIFA World Championships did France won?", "2");
+  mapQA.set("How many FIFA World Championships has won France?", "2");
   mapQA.set(
     "Which is the name of the first nuclear powered submarine?",
     "USN. Nautilus"
@@ -37,7 +37,7 @@ function fillMap() {
   );
   mapQA.set("How great Lionel Messi is?", "There arent enough words for that");
   mapQA.set(
-    "Which year was when humans did step on the moon for the first time?",
+    "Which year was it when humans first set foot on the moon?",
     "1969"
   );
   mapQA.set("Between which years was the Eiffel Tower built?", "1887 - 1889");
